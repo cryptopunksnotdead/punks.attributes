@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Catalog</title>
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <script>
+
+/*
+    var gems = [
+        { name: 'Ruby on Rails', },
+        { name: 'Rack', },
+        { name: 'Sinatra', },
+    ];
+*/
+
+var catalog_sorter = null;    // use a dummy sorter ?? for uninitialized ??
+
+$( document ).ready(function() {
+ 
+    // alert( "hello from doc ready");
+
+    var $catalog = $('#catalog');
+    console.log( $catalog );
+    
+        
+    $catalog.prepend( "<p>testing append</p>" );
+
+    // fetch
+    // note:
+    //  only raw.githubusercontent.com works w/ cors header allow *
+
+    //var url = "https://github.com/planetruby/awesome-webframeworks/raw/master/data/cards.json";
+    var url = "https://raw.githubusercontent.com/planetruby/awesome-webframeworks/master/data/cards.json";
+    readJSON( url, function( data ) {
+     
+     for( i=0; i<data.length; ++i) {
+       var gem = data[i];
+       console.log( "  [debug] build card " + i + " - " + gem.name );
+       var snippet = build_card( gem );
+       // console.log( "  [debug] snippet: " + snippet );
+       // add to catalog
+       $catalog.append( snippet );
+     }
+     
+      catalog_sorter = catalog_sorter_new( $catalog );   // setup catalog sorter
+    });
+});
+
+// read in JSON files
+function readJSON( url, success ) {
+
+
+   // $.getJSON( url+"?callback=?", function( data ) {
+   $.getJSON( url, function( data ) {
+       console.log( "readJSON success" );
+       console.log( "type: " + typeof data );
+       console.log( data );
+
+/*     // check: not need for $.getJSON (only if using $.get -- ??
+       if( typeof data == 'string' ) {
+         // convert data to json if returned as "plain" text
+         data = JSON.parse( data );
+       }
+*/
+     success( data );
+   });
+};
+
+
+function build_card( data ) {
+  // return html snippets as string
+  //  todo/fix: use a template later
+  var buf = '';
+  buf += "<div class='card'>";
+  // todo/fix: add tags
+  //  <ul>
+  //     <li>#webframeworks</li>
+  //     <li>#rails</li>
+  //  </ul>
+  buf += "<ul><li>"+ data.categories  +"</li></ul>"   // fix: dummy hard-coded for now
+  buf += "  <h4>" + data.name + "</h4>";
+  buf += "  <div>v4.2.3  - ↓↑ <span class='dl'>" + getRndDownloads()+ "</span>, ★ <span class='stars'>" + getRndStars()+ "</div>";
+  buf += "</div>";
+  return buf;
+}
+
+function getRndInt(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+function getRndDownloads() { return getRndInt(1, 500)*getRndInt(1, 500)*getRndInt(1, 500); }
+function getRndStars()     { return getRndInt(2, 23000); }
+
+
+var catalog_sorter_new = function( catalog_id ) {
+
+    // use module pattern (see JavaScript - The Good Parts)
+    //   for now
+
+    function _debug( msg ) {
+       console.log( "[debug] " + msg ); 
+    }
+
+    function _sortInt(left,right) {
+       return right - left;   // note sort descending (largest number first)
+    }
+    function _convInt(text) {
+        var i = parseInt( text.replace( /,/g, ''), 10 );
+        return (isNaN(i)) ? 0 : i;
+    }
+
+    var $catalog,   // container div
+        $cards;   // nested div
+
+
+    function _byDownloads( $div ) {
+      return _convInt( $div.find('.dl').text() );
+    }
+    
+    function _byStars( $div ) {
+       return _convInt( $div.find('.stars').text() );
+    }
+
+
+  function _sort( keyFunc, sortFunc )   // keyFunc e.g. use _byDownloads or  _byStars, etc.
+  {
+     _debug( "call _sort" );
+
+      $cards.each( function( rowIndex, row ) {
+            row.sortKey = keyFunc( $(row) );
+            row.sortPos = rowIndex;   // NB: stable sort hack, part i - on equal use sortPos to keep stable sort with unstable sort
+            _debug( "["+rowIndex+"] => " + row.sortKey );
+      }); // each rows
+
+      $cards.sort( function( left, right ) {
+          var result = sortFunc( left.sortKey, right.sortKey );
+
+          // NB: stable sort hack, part ii
+          if( result == 0 )
+            result = left.sortPos - right.sortPos;
+            
+          return result;
+      }); // sort
+
+      $cards.each( function( rowIndex, row ) {
+        $catalog.append( row );
+          // row.sortKey = null;
+          // row.sortPos = null;
+       });
+  } // function _sort_col
+
+
+  function _init( catalog_id )
+  {
+    // nb: will find w/ selector or wrap vanilla javascript this in jquery wrapped $(this)
+    $catalog = $( catalog_id );
+    
+    $cards = $catalog.find( 'div.card' );   // todo - use single level nested instead of class?
+    // console.log( $cards );
+  } // function _init
+  
+  _init( catalog_id );
+
+  
+    return {
+      sort_by_dl: function( ) {
+          _sort( _byDownloads, _sortInt );
+           return this;
+      },
+      sort_by_stars: function() {
+          _sort( _byStars, _sortInt );
+          return this;
+      }
+    };  
+};
+
+</script>
+
+
+<style>
+
+.card {
+    display: inline-block;
+    width: 260px;
+    padding: 8px;
+}
+
+.card h4 {
+  margin: 0;
+  padding: 4px 0 4px 0;  /* top right bottom left */
+  font-size: 140%;
+  color: #8b0000;
+}
+
+.card ul {
+  /* make horizontal */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.card li {
+  /* make horizontal */
+  display: inline;
+  font-size: 80%;
+  color: grey;
+}
+
+</style>
+
+  </head>
+  <body>
+
+<div>
+   Sort by:  <!-- Normal |     how? add sequence number ??? -->
+            <a href='#' onclick='catalog_sorter.sort_by_dl(); return false;'>Downloads</a> |
+            <a href='#' onclick='catalog_sorter.sort_by_stars(); return false;'>Stars </a>
+</div>
+
+
+<div id='catalog'>
+
+<!--
+  <div class='card'>
+    <ul>
+       <li>#webframeworks</li>
+       <li>#test</li>
+    </ul>
+    <h4>Test</h4>
+    <span>v4.2.3  - ↓↑ 50,160,467, ★ 26,705</span>
+  </div>
+-->
+  
+</div>
+    
+  </body>
+</html>
