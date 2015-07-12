@@ -1,0 +1,52 @@
+
+/*
+ * card example
+ * 
+  <div class='card'>
+    <ul>
+       <li>#webframeworks</li>
+       <li>#test</li>
+    </ul>
+    <h4>Test</h4>
+    <span>v4.2.3  - ↓↑ 50,160,467, ★ 26,705</span>
+  </div>
+ */
+
+body {
+  background-color: #F4F4F4;
+  font-family: sans-serif;
+}
+
+.card {
+  display: inline-block;
+  width: 260px;
+  padding: 8px;
+  margin: 6px;
+  background-color: white;
+}
+
+.card .desc,
+.card .deps {
+  font-size: 80%;
+}
+
+.card h4 {
+  margin: 0;
+  padding: 4px 0 4px 0;  /* top right bottom left */
+  font-size: 140%;
+  color: #8b0000;  /* ruby red */
+}
+
+.card ul {
+  /* make horizontal */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card li {
+  /* make horizontal */
+  display: inline;
+  font-size: 80%;
+  color: grey;
+}
