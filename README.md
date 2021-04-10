@@ -325,9 +325,7 @@ Do you have a tool for the punks dataset? Let us know! Add your tool here.
 
 
 
-<!--
-  r/cryptopunk gone private / censored!?
 ## Questions? Comments?
 
-Post them on the [cryptopunk reddit](https://www.reddit.com/r/cryptopunk). Thanks.
--->
+Post them on the [cryptopunks reddit](https://old.reddit.com/r/cryptopunks). Thanks.
+
