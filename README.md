@@ -327,5 +327,5 @@ Do you have a tool for the punks dataset? Let us know! Add your tool here.
 
 ## Questions? Comments?
 
-Post them on the [cryptopunks reddit](https://old.reddit.com/r/cryptopunks). Thanks.
+Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
 
