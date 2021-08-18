@@ -33,7 +33,11 @@ _New species, new attributes_
 See [**more/ »**](more)
 
 
+## Generate JSON
 
+```sh
+node index.js > punks.json
+```
 
 ## Your Tool Here
 

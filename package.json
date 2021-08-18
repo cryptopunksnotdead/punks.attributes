@@ -1,0 +1,23 @@
+{
+  "name": "punks.attributes",
+  "version": "1.0.0",
+  "description": "Metadata for CryptoPunks",
+  "main": "index.js",
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raymondfeng/punks.attributes.git"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/raymondfeng/punks.attributes/issues"
+  },
+  "homepage": "https://github.com/raymondfeng/punks.attributes#readme"
+}
