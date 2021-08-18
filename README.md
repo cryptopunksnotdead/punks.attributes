@@ -21,7 +21,7 @@ id, type, count, accessories
 ...
 ```
 
-See [**original/ » **](original)
+See [**original/ »**](original)
 
 
 
