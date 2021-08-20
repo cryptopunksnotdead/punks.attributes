@@ -35,10 +35,10 @@ See [**more/ »**](more)
 
 
 
-## Your Tool Here
+## Your Scripts & Tools Here
 
 
-Do you have a tool for the punks dataset? Let us know! Add your tool here.
+Do you have any scripts or tools for the punks.attributes datasets? Let us know! Add your scripts and/or tools here. Yes, you can!
 
 
 
