@@ -1,4 +1,4 @@
-id, species, gender, skin tone, hair, hair color, facial hair, facial hair color, accessories
+id, type, gender, skin tone, hair, hair color, facial hair, facial hair color, accessories
 0, Alien, Male, , Buzz Cut, Light Green, , , Sunglasses
 1, Human, Male, Pale, Long Hair, Orange, Big Beard, Light Brown, Snorkel Mask
 2, Human, Female, Dark, Long Curly Hair, Silver, , , Sunglasses / Bow
