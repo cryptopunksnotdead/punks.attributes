@@ -29,7 +29,7 @@ See [**original/ »**](original)
 
 _Looking left? Looking right? 1000 front-looking punks (999 from original series plus Philip the Phunk_
 
-See [**front/ »**](more)
+See [**front/ »**](front)
 
 
 
