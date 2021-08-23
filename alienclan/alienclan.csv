@@ -1,0 +1,101 @@
+id, type, gender, count, accessories
+0, Alien, Male, 2, VR / Mohawk Dark
+1, Alien, Male, 2, Knitted Cap / Normal Beard
+2, Alien, Male, 2, Crazy Hair / Gold Chain
+3, Alien, Male, 2, Purple Hair / Smile
+4, Alien, Male, 2, Hoodie / Silver Chain
+5, Alien, Male, 2, Police Cap / Big Beard
+6, Alien, Male, 2, Top Hat / Luxurious Beard
+7, Alien, Male, 3, Gold Chain / Beanie / Small Shades
+8, Alien, Male, 2, Vampire Hair / Buck Teeth
+9, Alien, Male, 2, Clown Hair Green / Clown Nose
+10, Alien, Male, 2, 3D Glasses / Vape
+11, Alien, Male, 3, Mohawk Dark / Eye Mask / Goat
+12, Alien, Male, 2, Peak Spike / Chinstrap
+13, Alien, Male, 2, Big Beard / Do-rag
+14, Alien, Female, 2, Rosy Cheeks / Tiara
+15, Alien, Female, 2, Gold Chain / Pigtails
+16, Alien, Female, 2, 3D Glasses / Orange Side
+17, Alien, Female, 1, Wild Blonde
+18, Alien, Female, 2, Knitted Cap / Pipe
+19, Alien, Female, 2, VR / Mohawk Dark
+20, Alien, Female, 2, Small Shades / Half Shaved
+21, Alien, Male, 7, Top Hat / Buck Teeth / Big Beard / Cigarette / Classic Shades / Mole / Earring
+22, Alien, Male, 2, Beanie / Cigarette
+23, Alien, Female, 2, 3D Glasses / Wild White Hair
+24, Alien, Male, 2, VR / Cowboy Hat
+25, Alien, Male, 2, Cap Forward / Spots
+26, Alien, Female, 1, Pink With Hat
+27, Alien, Male, 3, 3D Glasses / Cigarette / Frumpy Hair
+28, Alien, Male, 2, Cap / Shadow Beard
+29, Alien (Ape), Male, 1, Bandana
+30, Alien, Female, 2, Classic Shades / Headband
+31, Alien, Male, 2, Hoodie / Big Shades
+32, Alien, Male, 3, Knitted Cap / Big Beard / Small Shades
+33, Alien, Male, 3, Hoodie / 3D Glasses / Pipe
+34, Alien, Male, 3, Silver Chain / Peak Spike / Shadow Beard
+35, Alien, Female, 1, Tassle Hat
+36, Alien, Female, 2, Gold Chain / Pilot Helmet
+37, Alien, Male, 3, Crazy Hair / Gold Chain / Small Shades
+38, Alien, Male, 2, Small Shades / Fedora
+39, Alien, Male, 3, Smile / Do-rag / Classic Shades
+40, Alien, Male, 3, Police Cap / Small Shades / Shadow Beard
+41, Alien, Male, 3, Normal Beard / Purple Hair / Earing
+42, Alien, Male, 2, Top Hat / Medical Mask
+43, Alien, Male, 3, Cigarette / Cap / Nerd Glasses
+44, Alien, Male, 2, Shadow Beard / Eye Patch
+45, Alien, Female, 1, Red Mohawk
+46, Alien, Female, 2, Medical Mask / Blonde Short
+47, Alien, Female, 2, Gold Chain / Top Hat
+48, Alien, Female, 2, Beanie / Rosy Cheeks
+49, Alien, Female, 3, Mohawk Dark / Clown Eyes Blue / Choker
+50, Alien, Male, 6, Normal Beard / Gold Chain / Hoodie / 3D Glasses / Pipe / Earring
+51, Alien, Male, 4, Mohawk Dark / Big Beard / Earing / Regular Shades
+52, Alien, Female, 2, Gold Chain / Fedora
+53, Alien, Female, 3, Cowboy Hat / Earing / Regular Shades
+54, Alien, Male, 2, Cowboy Hat / Luxurious Beard
+55, Alien, Male, 3, Bandana / Earing / Clown Eyes Green
+56, Alien, Male, 3, Eye Mask / Earring / Shaved Head
+57, Alien, Male, 2, Bandana / Luxurious Beard
+58, Alien, Male, 2, Do-rag / Eye Patch
+59, Alien, Female, 2, Clown Eyes Green / Tiara
+60, Alien, Female, 3, Gold Chain / Regular Shades / Police Cap
+61, Alien, Female, 3, Earring / Cap / Clown Eyes Blue
+62, Alien, Male, 3, Small Shades / Mole / Stringy Hair
+63, Alien, Female, 1, Stringy Hair
+64, Alien, Male, 4, Normal Beard / Silver Chain / Cap Forward / Clown Eyes Blue
+65, Alien, Male, 2, Vampire Hair / Clown Nose
+66, Alien (Ape), Male, 1, Knitted Cap
+67, Alien, Male, 2, Clown Hair Green / Eye Mask
+68, Alien, Male, 4, 3D Glasses / Cap / Shadow Beard / Earing
+69, Alien, Male, 4, Mohawk Dark / Cigarette / Shadow Beard / Big Shades
+70, Alien, Female, 3, Earring / Big Shades / Mohawk Thin
+71, Alien, Female, 2, Wild White Hair / Clown Eyes Blue
+72, Alien, Male, 3, Eye Patch / Luxurious Beard / Beanie
+73, Alien, Male, 3, Silver Chain / Small Shades / Crazy White Hair
+74, Alien, Male, 3, 3D Glasses / Shadow Beard / Headband
+75, Alien, Female, 2, Hoodie / Clown Eyes Green
+76, Alien, Male, 2, Crazy Hair / Big Beard
+77, Alien, Male, 5, Big Beard / 3D Glasses / Vape / Cap Forward / Earing
+78, Alien, Female, 3, Pigtails / Cigarette / Nerd Glasses
+79, Alien, Female, 2, Clown Hair Green / Eye Patch
+80, Alien, Male, 5, Small Shades / Vampire Hair / Pipe / Shadow Beard / Earring
+81, Alien, Female, 5, Gold Chain / Top Hat / Rosy Cheeks / Cigarette / Regular Shades
+82, Alien, Female, 2, Do-rag / Eye Patch
+83, Alien, Male, 4, Small Shades / Pipe / Fedora / Mustache
+84, Alien, Male, 4, VR / Buck Teeth / Goat / Headband
+85, Alien, Male, 4, Cigarette / Frumpy Hair / Regular Shades / Frown
+86, Alien, Male, 3, Knitted Cap / Cigarette / Handlebars
+87, Alien, Male, 3, Earring / Bandana / Zombie Eyes
+88, Alien, Female, 2, Gold Chain / Cap Forward
+89, Alien, Female, 2, Tiara / Half Shaved
+90, Alien, Male, 3, Earring / Luxurious Beard / Cap Backward
+91, Alien, Male, 2, Mole / Mohawk Thin
+92, Alien, Male, 3, Police Cap / Cigarette / Mustache
+93, Alien, Female, 2, Classic Shades / Pink With Hat
+94, Alien (Ape), Male, 1, Hoodie
+95, Alien, Female, 3, Pilot Helmet / Choker / Clown Eyes Green
+96, Alien, Male, 2, Medical Mask / Red Mohawk
+97, Alien, Male, 3, Normal Beard / Eye Patch / Stringy Hair
+98, Alien, Male, 4, Gold Chain / Tiara / Earring / Regular Shades
+99, Alien, Male, 3, Knitted Cap / Shadow Beard / Zombie Eyes
