@@ -25,6 +25,14 @@ See [**original/ »**](original)
 
 
 
+## Front Looking Series
+
+_Looking left? Looking right? 1000 front-looking punks (999 from original series plus Philip the Phunk_
+
+See [**front/ »**](more)
+
+
+
 ## 1000 More Series
 
 _New species, new attributes_
@@ -33,12 +41,12 @@ _New species, new attributes_
 See [**more/ »**](more)
 
 
-
 ## Expansion Series
 
 _10 000 more punks_
 
 See [**expansion/ »**](expansion)
+
 
 
 
