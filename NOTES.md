@@ -1,6 +1,20 @@
 # Notes
 
 
+## More
+
+### Scripts & Tools
+
+**Generate JSON datasets**  with Node.js script (e.g. `node index.js > punks.json`) by Raymond Feng, [(Source)](https://github.com/raymondfeng/punks.attributes#generate-json)
+
+
+Do you have any scripts or tools for the punks.attributes datasets? Let us know!
+Add your scripts and/or tools here. Yes, you can!
+
+
+
+
+
 
 ## Categories
 

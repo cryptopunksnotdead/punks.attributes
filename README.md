@@ -1,27 +1,28 @@
-# cryptopunk.csv Datasets - All Punk Meta Data - Attributes & More
+# Punk Datasets - Meta Data (In Tabular .CSV Format) Incl. Attributes & More
 
 
 
-## Original Series
+## Original Matt & John's Series (V1/V2) - Max. 10 000
 
-(Crypto) punks dataset in comma-separated values (CSV) format
-in blocks of a thousand punks each.
-The data records for punks
-incl. id, type, count (of accessories), and accessories.
-Example:
+Matt & John's (crypto) punks dataset in comma-separated values (CSV) 
+format. The data records incl. id (0-9999), type, 
+gender (male/female), 
+skin tone (dark/medium/light/albino), 
+count (of accessories), and accessories. Example:
 
 ```
-id, type, count, accessories
-0, Female, 3, Green Eye Shadow / Earring / Blonde Bob
-1, Male, 2, Smile / Mohawk
-2, Female, 1, Wild Hair
-3, Male, 3, Wild Hair / Nerd Glasses / Pipe
-4, Male, 4, Big Shades / Wild Hair / Earring / Goat
-5, Female, 3, Purple Eye Shadow / Half Shaved / Earring
+id, type, gender, skin tone, count, accessories
+0, Human, Female, Medium, 3, Green Eye Shadow / Earring / Blonde Bob
+1, Human, Male, Dark, 2, Smile / Mohawk
+2, Human, Female, Light, 1, Wild Hair
+3, Human, Male, Dark, 3, Wild Hair / Nerd Glasses / Pipe
+4, Human, Male, Medium, 4, Big Shades / Wild Hair / Earring / Goat
+5, Human, Female, Medium, 3, Purple Eye Shadow / Half Shaved / Earring
 ...
 ```
 
 See [**original/ »**](original)
+
 
 
 
@@ -60,18 +61,14 @@ See [**alienclan/ »**](alienclan)
 
 
 
-## Scripts & Tools
-
-**Generate JSON datasets**  with Node.js script (e.g. `node index.js > punks.json`) by Raymond Feng, [(Source)](https://github.com/raymondfeng/punks.attributes#generate-json)
-
-
-
-Do you have any scripts or tools for the punks.attributes datasets? Let us know!
-Add your scripts and/or tools here. Yes, you can!
-
 
 
 ## Questions? Comments?
 
-Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
+Join us in the [Punk Art discord (chat server)]( https://discord.gg/FE3HeXNKRa). Yes you can.
+Your questions and commetary welcome.
+
+
+Or post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
+
 
