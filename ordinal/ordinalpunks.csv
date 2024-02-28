@@ -1,0 +1,101 @@
+id,  type,  gender, skin_tone, accessories
+1,  Robot,   Male,,        Big Beard
+2,  Human,   Male,    2,   Bubble Gum / Birthday Hat
+3,  Human,   Female,  1,   Flowers / Frown / Gold Chain
+4,  Demon,   Male,,        Hoodie / Pipe
+5,  Ape,     Male, Blue,   Buck Teeth / Cowboy Hat
+6,  Human,   Male,    3,   Laser Eyes / Cowboy Hat B & W
+7,  Human,   Male,    1,   Cap Burger King
+8,  Vampire, Male,,        Demon Horns
+9,  Human,   Female,  Orange,  Crown
+10,  Human,  Female,  3,   Choker / Wild White Hair / Cigarette / Mole / Big Shades / Frown
+11,  Zombie,  Male,,       Mole / 3D Glasses / Frown / Big Beard / Earring
+12,  Orc,     Male,,       Beanie / VR / Clown Nose
+13,  Human,   Female, 4,   Pilot Helmet / Silver Chain / Clown Eyes Green
+14,  Human,   Male,  Orange,  Beanie B & W
+15,  Human,   Male,   4,   Police Cap B & W / Regular Shades
+16,  Human,   Male,   4,   3D Glasses B & W
+17,  Demon,   Male,,       Cigarette / Laser Eyes
+18,  Human,   Male,    4,  Buck Teeth / Cigarette / Frown / Gold Chain / Knitted Cap / Earring / Mole
+19,  Human,   Female,  1,  Bow
+20,  Zombie Ape, Male,,    Cigar / Bubble Gum
+21,  Alien,   Male,  Gold,  Top Hat B & W / Silver Chain
+22,  Human,  Male,   Blue,  Clown Hair Blue
+23,  Human, Female,     2,  Rosy Cheeks / Tiara / Smile
+24,  Human, Male,       1,  Medical Mask / Clown Nose / Hoodie
+25,  Human, Male,       2,  Sombrero / Mustache
+26,  Vampire, Male,,        Bubble Gum / Spots / Do-Rag
+27,  Mummy,   Male,,        Beanie
+28,  Human,   Male,     2,  Crazy Hair / Regular Shades / Cigar
+29,  Zombie,  Male,,        Hoodie / Gold Chain / Cigarette
+30,  Human,   Male,     2,  Jester Hat
+31,  Human,   Male,     1,  Cap Red
+32,  Human,   Male,     4,  Messy Hair / Laser Eyes
+33,  Human,  Female,     2,  Hoodie / Eye Patch
+34,  Human,  Female,     3,  Black Lipstick / Eye Mask / Choker
+35,  Skeleton, Male,,        Eye Patch / Fedora
+36,  Human,  Female,     4,  Classic Shades / Clown Hair Green
+37,  Human,  Male,       1,  3D Glasses / Cigarette / Buck Teeth
+38,  Orc,    Female,,        Blonde Bob
+39,  Zombie, Female,,        Birthday Hat / VR
+40,  Human,  Male,       2,  Bandana / Laser Eyes
+41,  Mummy,  Female,,        Crown
+42,  Demon,  Female,,        Cigar / Choker
+43,  Human,  Female,     4,  Nerd Glasses / Frumpy Hair
+44,  Human,  Female,     1,  Cowboy Hat / Pipe
+45,  Human,  Male,       2,  Top Hat / Smile / Silver Chain
+46,  Human,  Male,    Blue,  Cap Burger King  / Classic Shades
+47,  Human,  Female,  Purple,  Clown Eyes Green / Blonde Bob
+48,  Human,  Male,     Gold,  Laser Eyes / Cap Forward
+49,  Human,  Female,     3,   Blue Eyeshadow / Beanie / Earring
+50,  Alien Ape,  Male,,       Goat / Fedora
+51,  Human,  Female,      Blue,  Blonde Short / Nerd Glasses
+52,  Alien,  Female,      Red Magenta,   3D Glasses
+53,  Demon,  Female,,         Frumpy Hair / Clown Nose
+54,  Human,  Male,           3,   Heart Shades / Do-Rag
+55,  Skeleton, Female,,           Cigarette / Bandana
+56,  Human,  Female,         2,  Earring / Mole / Cap / Smile
+57,  Human,  Male,           4,  Clown Nose / Top Hat B & W
+58,  Vampire, Female,,        Heart Shades
+59,  Human,  Male,        Blue,   Cowboy Hat B & W / Pipe / Cigarette
+60,  Human,  Male,           1,   Crazy Hair / Clown Eyes Blue / Eye Mask
+61,  Demon,  Female,,             Blue Eyeshadow
+62,  Human,  Male,           2,   Big Shades / Beanie B & W
+63,  Zombie, Female,,             Frown
+64,  Orc,    Female,,             Mole / Frumpy Hair / Green Eye Shadow
+65,  Human,  Male,           1,   Frown / Do-Rag / Gold Chain / Classic Shades
+66,  Ape,    Female,,             Sombrero
+67,  Alien,  Male,      Yellow,   Smile / Goat
+68,  Human,  Female,    Gold,     Clown Hair Green / Choker
+69,  Robot,  Female,,             3D Glasses
+70,  Human,  Male,      Orange,   Bandana / Chinstrap
+71,  Human,  Female,        3,   Green Eye Shadow / Top Hat B & W
+72,  Mummy,  Female,,            Dark Hair
+73,  Alien,  Female,    Violet,   Pipe / Knitted Cap
+74,  Human,  Female,    Orange,   Cap Forward
+75,  Demon,  Male,,               Big Beard
+76,  Robot,  Male,,               Classic Shades / Cigarette
+77,  Human,  Male,           4,   Eye Mask / Silver Chain / Bandana / Clown Nose
+78,  Zombie, Male,,               Pipe / Hoodie
+79,  Human,  Male,           3,   Earring / 3D Glasses B & W
+80,  Orc,    Male,,
+81,  Vampire, Female,,            Dark Hair
+82,  Mummy,   Male,,              Cowboy Hat B & W / Eye Mask
+83,  Alien,   Male,      Green,   Clown Eyes Green
+84,  Human,   Male,          1,   Eye Mask / Chinstrap / Fedora B & W
+85,  Human,   Male,          4,   Silver Chain / Cap Forward / Pipe / Demon Horns
+86,  Skeleton, Male,,             Clown Eyes Green
+87,  Human,   Female,        3,   Do-Rag / Gold Chain
+88,  Human,   Male,          4,   Cap Forward B & W / 3D Glasses B & W
+89,  Zombie,  Female,,            Cap / Earring / Green Eye Shadow / Cigar
+90,  Vampire, Male,,              Demon Horns / Chinstrap
+91,  Human,   Female,        1,   Cowboy Hat / Green Eye Shadow / Black Lipstick / Choker
+92,  Robot,   Male,,              Crazy Hair
+93,  Orc,     Male,,              Eye Mask / Goat / Gold Chain
+94,  Alien Ape, Male,,            Eye Patch / Frumpy Hair
+95,  Human,   Female,        3,   Clown Nose / Medical Mask / Cigarette
+96,  Human,   Male,      Orange,  Classic Shades / Big Beard / Bandana
+97,  Alien,   Male,        Gold,  3D Glasses / Beanie B & W / Cigarette / Silver Chain / Mole
+98,  Human,   Female,    Yellow,  Tiara / Crown / Silver Chain
+99,  Ape,     Male,      Gold,    Cap Forward / Earring / Medical Mask
+100, Demon,   Male,            ,  Cowboy Hat B & W / Buck Teeth
