@@ -5,7 +5,7 @@
 ## Original Matt & John's Series (V1/V2) - Max. 10 000
 
 Matt & John's (crypto) punks dataset in comma-separated values (CSV) 
-format. The data records incl. id (0-9999), type, 
+format. The data records incl. id (0-9999), type (human/zombie/ape/alien), 
 gender (male/female), 
 skin tone (dark/medium/light/albino), 
 count (of accessories), and accessories. Example:

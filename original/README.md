@@ -2,7 +2,35 @@
 
 
 Matt & John's (crypto) punks dataset in comma-separated values (CSV) 
-format. The data records incl. id (0-9999), type, 
+format.
+
+
+## Classic
+
+The data records incl. id (0-9999), type (male/female/zombie/ape/alien), 
+count (of accessories), and accessories.
+Example - [`cryptopunks-classic.csv`](cryptopunks-classic.csv):
+
+```
+id, type, count, accessories
+0, Female, 3, Green Eye Shadow / Earring / Blonde Bob
+1, Male, 2, Smile / Mohawk
+2, Female, 1, Wild Hair
+3, Male, 3, Wild Hair / Nerd Glasses / Pipe
+4, Male, 4, Big Shades / Wild Hair / Earring / Goat
+5, Female, 3, Purple Eye Shadow / Half Shaved / Earring
+6, Male, 1, Do-rag
+7, Female, 3, Wild White Hair / Spots / Clown Eyes Blue
+8, Male, 2, Messy Hair / Luxurious Beard
+9, Male, 3, Clown Nose / Police Cap / Big Beard
+...
+```
+
+
+
+## Extended
+
+The data records incl. id (0-9999), type (human/zombie/ape/alien), 
 gender (male/female), 
 skin tone (dark/medium/light/albino), 
 count (of accessories), and accessories.
@@ -19,6 +47,10 @@ id, type, gender, skin tone, count, accessories
 5, Human, Female, Medium, 3, Purple Eye Shadow / Half Shaved / Earring
 ...
 ```
+
+
+
+
 
 
 ## Rarity & Popularity
